@@ -3,7 +3,14 @@ header {
     background: #FFFBF0;
     padding-bottom: 50px;
 }
-
+.header-btn{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #93AB30;
+    color: #fff;
+    font-weight: 500;
+}
 .header-left-side h2 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
@@ -39,7 +46,7 @@ p {
 }
 
 button {
-    padding: 12px 15px 12px 15px;
+    padding: 0px 25px;
     border-radius: 10px;
     border: none;
     background-color: #93AB30;
@@ -64,15 +71,17 @@ button {
 }
 
 .card-img-top {
-    height: 300px;
+    /* height: 300px; */
     padding: 30px;
     background-color: #F1F1F1;
+    border-radius: 20px;
 }
 
 .card {
     padding: 20px;
     border: none;
     box-shadow: 2px 2px 5px 5px #F9F9F9;
+    border-radius: 20px;
 }
 
 .card-title {
@@ -85,6 +94,9 @@ button {
     font-weight: bold;
     font-size: 35px;
     color: #FABE4C;
+}
+.c-footer button{
+    margin-left: 60px;
 }
 
 /* card area end */
@@ -101,6 +113,7 @@ button {
     box-shadow: 2px 2px 10px 4px #e0ebeb;
 }
 
+
 .footer-left-cards img {
     width: 60%;
 }
@@ -116,6 +129,9 @@ button {
     }
     .header-right-side{
         text-align: center;
+    }
+    .footer-left-cards:last-child{
+        margin-bottom: 80px;
     }
     
 }
